@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ScanPay</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="loader">
+    <img src="assets/logo.png" alt="ScanPay Logo" class="logo-bounce"/>
+  </div>
+
+  <!-- Actual homepage content will come here -->
+
+  <script>
+    // Hide loader after 2 seconds
+    window.onload = () => {
+      setTimeout(() => {
+        document.querySelector(".loader").style.display = "none";
+      }, 2000);
+    };
+  </script>
+</body>
+</html>
